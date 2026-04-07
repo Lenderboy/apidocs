@@ -4,6 +4,7 @@ Mark Cuban Cost Plus Drugs is committed to selling medications at transparent an
 Read more about [our mission](https://costplusdrugs.com/mission/).
 
 ## Usage and Samples
+See https://costplusdrugs.github.io/apidocs for usage and samples in html form
 
 Cost Plus Drugs provides an API, with results served from GCP US-Central-1 at the following URL:
 
