@@ -23,34 +23,29 @@ curl "https://us-central1-costplusdrugs-publicapi.cloudfunctions.net/main"
 ```
 
 returns:
-
 ```json
 {
   "results": [
     {
-      "brand_name": "",
+      "auto_refill": true,
+      "brand_generic": "Generic",
+      "brand_name": "Epzicom",
       "form": "Tablet",
+      "insurance_eligible": "Yes",
       "medication_name": "Abacavir / Lamivudine",
-      "ndc": "68180028806",
+      "medispan_pack_size": "30",
+      "medispan_pack_size_units": "ea",
+      "medispan_quantity": "1",
+      "ndc": "42385096230",
       "pill_nonpill": "Pill",
-      "slug": "AbacavirLamivudine-600mg_300mg-Tablet",
-      "strength": "600mg/300mg",
-      "unit_price": "$1.820",
-      "url": "https://costplusdrugs.com/medications/abacavirlamivudine-600mg_300mg-tablet/"
+      "slug": "abacavirlamivudine-600mg_300mg-tablet",
+      "special_handling": "",
+      "strength": "600mg-300mg",
+      "unit_billing_price": "$1.1075",
+      "unit_price": "$0.963",
+      "url": "https://www.costplusdrugs.com/medications/abacavirlamivudine-600mg_300mg-tablet/"
     },
-    {
-      "brand_name": "",
-      "form": "Tablet",
-      "medication_name": "Albendazole",
-      "ndc": "78482011002",
-      "pill_nonpill": "Pill",
-      "slug": "Albendazole-200mg-Tablet",
-      "strength": "200mg",
-      "unit_price": "$17.250",
-      "url": "https://costplusdrugs.com/medications/albendazole-200mg-tablet/"
-    },
-  ...
-
+    ...
 ```
 
 A full example output, with offerings and prices as of 2022-03-23, is available [here](output-ex-001.json).
